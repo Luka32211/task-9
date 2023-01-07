@@ -1,0 +1,27 @@
+body {
+    height: 100vh;
+    background: linear-gradient(90deg, #f598a8, #f6edb2);
+}
+
+.window-cont {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.btn-footer {
+    width: 49%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn-footer:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.card-footer {
+    padding: 5px !important;
+    user-select: none; 
+}
